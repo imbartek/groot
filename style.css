@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+body{
+    background-color: #5E713F;
+}
+nav{
+    display: flex;
+    width: 50vw;
+    height: 50px;
+    justify-content: space-around;
+    margin: 3% 0 0 7%;
+}
+.logo{
+    height: 120%;
+    cursor: pointer;
+}
+.nav_list{
+    list-style: none;
+    margin: 0 2vw 0 2vw;
+    min-width: 520px;
+    display: flex;
+}
+.list_item:first-child{
+    color: #FF5252 !important;
+    border-bottom: 3px solid #FF5252 !important;
+}
+.list_item{
+    padding: 0 10px 5px 10px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login_btn{
+    background-color: #FF5252;
+    min-width: 128px;
+    height: 70%;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.baby{
+    font-size: 40rem;
+    font-weight: 600;
+    position: fixed;
+    top: -10px;
+    left: 5vw;
+    z-index: -3;
+    text-transform: uppercase;
+    color: #C1D0DC;
+    opacity: 0.1;
+    line-height: 420px;
+}
+.groot{
+    font-size: 30rem;
+}
+.main_text{
+    width: 50vw;
+    position: absolute;
+    top: 250px;
+    margin-left: 10%;
+    text-align: left;
+}
+.text{
+    position: fixed;
+    height: 380px;
+    left: 25%;
+    bottom: 13%;
+    z-index: -2;
+}
+.title{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.subtitle{
+    font-size: 1rem;
+}
+.description{
+    max-width: 80%;
+    font-size: 16px;
+    margin-top: 4%;
+}
+.hero{
+    position: fixed;
+    width: 320px;
+    z-index: -1;
+    right: 15%;
+}
+.elipse{
+    position: fixed;
+    height: 800px;
+    width: 500px;
+    z-index: -2;
+    right: 8%;
+    top: 0;
+}
+.image2, .image3, .image4{
+    position: fixed;
+}
+.image2{
+    right: 30%;
+    bottom: 2%;
+    z-index: -2;
+    transition: ease-in-out 3s;
+}
+.image3{
+    right: 0;
+    top: 30%;
+    transition: ease-in-out 3s;
+}
+.image4{
+    right: 10%;
+    top: 0;
+    transition: ease-in-out 2s;
+}
